@@ -1,0 +1,79 @@
+# Doppelgänger Detection System - Git Ignore
+
+# Large datasets and processed data
+data/raw/
+data/processed/
+extracted_images/
+processed_gallery_*/
+realistic_w_annotations/
+lfw-deepfunneled/
+HDA-Doppelgaenger/
+img_align_celeba/
+pair_SLLFW.txt
+
+# Model checkpoints and weights
+models/checkpoints/
+models/pretrained/
+*.pth
+*.pt
+*.onnx
+*.pkl
+
+# Query images (personal photos)
+chris.jpeg
+myself.jpeg
+
+# Temporary and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+nohup.out
+/tmp/
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv
+venv/
+env/
+
+# Large preprocessed results
+database_processing_checkpoint.json
+*_doppelganger_results.json
+failed_images.txt
+checkpoint.txt
+visualization.png
+
+# Specific large files we want to exclude
+*.jpeg
+*.jpg
+*.png
