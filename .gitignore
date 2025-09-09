@@ -22,6 +22,10 @@ models/pretrained/
 # Query images (personal photos)
 chris.jpeg
 myself.jpeg
+chris_112x112.jpg
+myself_112x112.jpg
+Tadhg.jpeg
+Tadhg_112x112.jpg
 
 # Temporary and cache files
 __pycache__/
@@ -72,6 +76,12 @@ database_processing_checkpoint.json
 failed_images.txt
 checkpoint.txt
 visualization.png
+
+# ONNX embeddings and metadata
+onnx_gallery_embeddings*.npy
+onnx_gallery_paths.json
+*.npy
+*.npz
 
 # Specific large files we want to exclude
 *.jpeg
