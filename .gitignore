@@ -87,3 +87,7 @@ onnx_gallery_paths.json
 *.jpeg
 *.jpg
 *.png
+
+# Result figures used in the README
+!docs/results/*.png
+.venv-backups/
